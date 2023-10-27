@@ -1,0 +1,7 @@
+Sistema criado com duas correntes, uma positiva e uma negativa.
+Formado por duas botoeiras, uma normalmente aberta e uma normalmente fechada. 
+Ao ligar o motor trifásico (M) através da botoeira S1, todo o sistema é ligado e manda sinal para a configuração em ladder, feita ao lado.
+
+OBS: Não consegui configurar o sensor nem o atuador. Portanto, é preciso que o botão seja pressionado 10x para representar os produtos passando.
+
+*Gostaria de uma ajuda para conseguir montar o sistema da forma correta 
