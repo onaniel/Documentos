@@ -7,7 +7,15 @@
     vertical-align: baseline;
     }
 
-    @import url('https://fonts.googleapis.com/css2?family=Alata&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    @font-face {
+        font-family: 'Roboto';
+        src: url('RobotoCondensed-Italic-VariableFont_wght.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Alata';
+        src: url('Alata-Regular.ttf') format('truetype');
+      }
 
     :root {
         --cor1: #00261C;
@@ -19,7 +27,7 @@
     
 
     body {
-        background-image: linear-gradient(to right,#F27233, #D6581D, #CA4213, #CB4F13, #D17B18);
+        background-image: linear-gradient(to right, #F27233, #D6581D, #CA4213, #CB4F13, #D17B18);
     }
 
     nav {
@@ -32,7 +40,7 @@
         font-weight:600;
         text-decoration: none;
         padding-left: 20px;
-        font-family: 'Alata', sans-serif;
+        font-family: 'Roboto', sans-serif;
         text-shadow: 5px 5px 5px #003b6231;
     }
 
@@ -42,6 +50,12 @@
 
     section {
         padding: 95px 0px 0px 300px;
+        height: 300px;
+    }
+
+    section > img {
+        position: relative;
+        display: inline-block;
     }
 
     section > h1 {
@@ -50,16 +64,15 @@
         line-height: 1;
         font-size: 36px;
         color: white;
-        padding: 10px 0px 27px 0px;
+        padding: 10px 0px 25px 0px;
         text-shadow: 5px 5px 5px #ca4113a4;
     }
 
     section > h2 {
         font-family: 'Alata', sans-serif;
         color: white;
-        font-weight: bold;
         line-height: 1.5;
-        font-size: 14px;
+        font-size: 15px;
         letter-spacing: 1px;
         text-shadow: 5px 5px 5px #ca4113a4;
     }
@@ -79,12 +92,12 @@
 
     section > div > a {
         background-image: linear-gradient(to right, #0D7EC8, #3FADF5);
-        padding: 15px;
+        padding: 13px;
         border-radius: 50px;
         color: white;
         text-decoration: none;
         font-family: 'Alata', sans-serif;
-        font-weight: bold;
+        font-weight: 400;
         text-shadow: 5px 5px 5px #003b6231;
         border: 1px solid #0D7EC8;
     }
@@ -100,20 +113,24 @@
 
     main {
         font-family: 'Alata', sans-serif;
-        width: 1000px;
         height: 100%;
         margin: auto;
         background-color: #F9F9F9;
         padding: 20px;
     }
 
-    main > h1 {
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        font-size: 30px;
+    main > div {
+        width: 700px;
     }
 
-    main > p {
+    main > div > h1 {
+        font-family: 'Alata', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    main > div > p {
         text-indent: 36px;
         text-align: justify;
         padding: 20px 0px;
@@ -162,7 +179,7 @@
         color: #003B62;
         font-size: 20px;
         font-family: 'Roboto', sans-serif;
-        font-weight: bold;
+        font-weight: bolder;
         text-shadow: 3px 3px 5px #5b5e5f25;
         padding: 10px 0px;
     }
