@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    }
+
+@font-face {
+    font-family: passion;
+    src: url(Passion_One/PassionOne-Regular.ttf) format(TrueType),
+    url(Passion_One/PassionOne-Bold.ttf) format(TrueType);
+}
+@font-face {
+    font-family: sriracha;
+    src: url(Sriracha/Sriracha-Regular.ttf) format(TrueType);
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+}
+
+header > h1 {
+    font-family:'passion', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 192px;
+    padding: 50px 0px 0px 0px;
+}
+
+header > h1:hover {
+    text-decoration: underline;
+}
+
+header > h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 0px 0px 50px 0px;
+}
+
+header > h2 > a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#container {
+    background-color: white;
+    font-size: 67px;
+    font-family: 'sriracha', Arial, sans-serif;
+    padding: 89px 30px;
+}
+
+
+footer {
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: black;
+    padding: 10px;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer > a:hover {
+    text-decoration: underline;
+}
+
+.img1 {
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-size: 67px;
+    font-family: 'sriracha', Arial, sans-serif;
+    padding: 89px 30px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+
+section.img1 > p {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+    width: 800px;
+}
+
+.img2 {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-size: 67px;
+    font-family: 'sriracha', Arial, sans-serif;
+    padding: 89px 30px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+
+section.img2 > p {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+    width: 800px;
+}
