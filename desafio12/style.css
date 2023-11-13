@@ -17,7 +17,8 @@
     src: url(Sriracha/Sriracha-Regular.ttf) format(TrueType);
 }
 
-body {
+body, html {
+    min-height: 100vh;
     background-color: black;
 }
 
@@ -27,9 +28,10 @@ header {
 
 header > h1 {
     font-family:'passion', Arial, sans-serif;
+    font-variant: small-caps;
     text-align: center;
     color: white;
-    font-size: 192px;
+    font-size: 10vw;
     padding: 50px 0px 0px 0px;
 }
 
@@ -41,14 +43,14 @@ header > h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: white;
-    font-size: 16px;
+    font-size: 3vw;
     padding: 0px 0px 50px 0px;
 }
 
 header > h2 > a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    font-size: 16px;
+    font-size: 3vw;
     font-weight: bold;
     text-decoration: none;
 }
@@ -59,9 +61,11 @@ a:hover {
 
 #container {
     background-color: white;
-    font-size: 67px;
+    font-size: 5vw;
     font-family: 'sriracha', Arial, sans-serif;
-    padding: 89px 30px;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    padding-left: 30px;
 }
 
 
@@ -69,7 +73,7 @@ footer {
     text-align: center;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
+    font-size: 3vw;
     background-color: black;
     padding: 10px;
 }
@@ -86,12 +90,15 @@ footer > a:hover {
 
 .img1 {
     background-image: url(imagens/background001.jpg);
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
     color: white;
-    font-size: 67px;
+    font-size: 5vw;
     font-family: 'sriracha', Arial, sans-serif;
-    padding: 89px 30px;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    padding-left: 30px;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 
@@ -99,17 +106,20 @@ section.img1 > p {
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
-    width: 800px;
+    display: inline-block;
 }
 
 .img2 {
     background-image: url(imagens/background002.jpg);
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
     color: white;
-    font-size: 67px;
+    font-size: 5vw;
     font-family: 'sriracha', Arial, sans-serif;
-    padding: 89px 30px;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    padding-left: 30px;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 
@@ -117,5 +127,5 @@ section.img2 > p {
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
-    width: 800px;
+    display: inline-block;
 }
